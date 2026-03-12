@@ -31,9 +31,9 @@ O usuário pode adicionar matérias à lista e removê-las quando desejar, facil
 3. Cada matéria possui um botão **Remover**, que permite excluir o item da lista.
 4. O campo de texto é limpo automaticamente após adicionar a matéria.
 
+---
 
 # 📂 Estrutura do Projeto
-
 
 lista-estudos
 │
@@ -43,6 +43,8 @@ lista-estudos
   ├── style.css
   ├── script.js
   └── estudante.png
+  ---
+
 
 
 # ▶️ Como executar o projeto
@@ -65,6 +67,13 @@ Projeto desenvolvido por **Letícia Alves** para prática de desenvolvimento web
 
 ---
 
+
 # 📌 Observação
 
 Este projeto foi desenvolvido com foco em **aprendizado de HTML, CSS e JavaScript**, aplicando
+
+---
+
+## 🌐 Acesse o projeto
+
+https://seu-usuario.github.io/lista-de-estudos

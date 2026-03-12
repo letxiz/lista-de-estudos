@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: auto;
+    background: rgb(192, 152, 229);
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(177, 90, 218);
+    color: rgb(22, 4, 54);
+}
+
+h3{
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(177, 90, 218);
+    color: rgb(4, 8, 47);
+}
+
+.container{
+     text-align: center;
+     padding: 2px;
+     flex: 1;;
+}
+
+#input-materia{
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.insere-mat{
+    display: block;
+    margin-top: 8px;
+}
+
+.mat-estudos{
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.adicionar-mat{
+    margin-top: 10px;
+    width: 120px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(186, 100, 226);
+    color: rgb(29, 1, 35);
+    cursor: pointer;
+}
+
+.adicionar-mat:hover{
+    background-color: rgb(150, 60, 200);
+}
+
+.adicionar-mat:active{
+    transform: scale(0.95);
+}
+
+
+#lista-materias{
+    list-style-type: disc;
+    text-align: left;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+#lista-materias li{
+     margin: 15px 0;
+    font-size: 18px;
+}
+
+#lista-materias li button{
+    margin-left: 10px;
+    padding: 3px 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(177, 90, 218);
+    color: rgb(29, 1, 35);
+    cursor: pointer;
+}
+
+.playlist-texto{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+iframe{
+    width: 450px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+.rodape{
+    text-align: center;
+    padding: 20px;
+}

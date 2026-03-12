@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Minha lista de estudos</title>
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+    
+    <body>
+        <header class="cabecalho">
+            <h1>Minha Lista de Estudos</h1>
+            <h3>Organizando o que preciso estudar diariamente</h3>
+        </header>
+        <section class="container">
+            <div class="campo-materia">
+                <label class="insere-mat">    
+                    <strong>Digite uma matéria ou assunto:</strong>
+
+                    <input type="text" id="input-materia" name="materia"> 
+                </label>
+                <button id="botao-adicionar" class="adicionar-mat">
+                    <strong>Adicionar</strong>
+                </button>
+                <p class="mat-estudos">Matérias para estudar:</p>
+            </div>
+            <div class="lista-estudos">
+                <ul id="lista-materias">
+                </ul>
+            </div>
+            <p class="playlist-texto"> Escute essa playlist enquanto estuda:</p>
+
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/playlist/6B4Ev6E6XYtumJECoTaPhc?utm_source=generator"
+                width="300"
+                height="352"
+                frameborder="0"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy">
+            </iframe>
+        </section>
+        <footer class="rodape">
+            <p>&copy; 2026 Letícia Alves. Todos os direitos reservados.</p>
+        </footer>
+        <script src="assets/script.js"></script>
+    </body>
+
+</html>

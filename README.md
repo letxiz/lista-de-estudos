@@ -44,6 +44,10 @@ lista-estudos
   ├── script.js
   └── estudante.png
   ---
+  
+## 🌐 Acesse o projeto
+
+https://seu-usuario.github.io/lista-de-estudos
 
 ---
 
@@ -67,6 +71,4 @@ Este projeto foi desenvolvido com foco em **aprendizado de HTML, CSS e JavaScrip
 
 ---
 
-## 🌐 Acesse o projeto
 
-https://seu-usuario.github.io/lista-de-estudos

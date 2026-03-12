@@ -45,13 +45,6 @@ lista-estudos
   └── estudante.png
   ---
 
-
-
-# ▶️ Como executar o projeto
-
-1. Faça o download ou clone este repositório
-2. Abra o arquivo **index.html** em qualquer navegador
-
 ---
 
 # 📸 Preview do projeto
